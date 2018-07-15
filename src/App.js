@@ -32,13 +32,13 @@ class App extends Component {
               />
               <Route
                 exact
-                path="/404"
-                render={() => <Error errorStatus="404" />}
+                path="/400"
+                render={() => <Error errorStatus="400" />}
               />
               <Route
                 exact
-                path="/400"
-                render={() => <Error errorStatus="400" />}
+                path="/404"
+                render={() => <Error errorStatus="404" />}
               />
               <Route
                 exact

@@ -26,11 +26,6 @@ const Header = ({ currentUser, handleLogout, handleLogin }) => {
             Login
           </button>
         )}
-        {currentUser.length === 0 && (
-          <button className="navbar-item button" value="register" disabled>
-            Sign-Up
-          </button>
-        )}
         {currentUser.length > 0 && (
           <button
             className="navbar-item button"
