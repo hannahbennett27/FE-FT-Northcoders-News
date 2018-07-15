@@ -1,0 +1,70 @@
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.app {
+  margin-top: 5%;
+}
+
+.navbar {
+  padding: 1% 0;
+}
+
+.navbar-item {
+  margin: auto;
+}
+
+.navbar-end {
+  margin-right: 1%;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  margin: 30vh;
+}
+
+.error-msg {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+aside {
+  margin-right: 10%;
+  text-align: center;
+}
+
+#vote-count,
+.label {
+  color: #3273dc;
+}
+
+.form {
+  margin-bottom: 1%;
+}
+
+.post {
+  position: fixed;
+  width: 43.5%;
+}
+
+.box {
+  padding: 10px;
+}
+
+.delete-div {
+  text-align: center;
+}
+
+.comment-body {
+  margin-bottom: 10px;
+}
+
+.comments-header,
+.article_title {
+  color: #3e73dc;
+  padding-bottom: 50px;
+}
