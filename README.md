@@ -31,7 +31,7 @@ The `api.js` file makes GET, PUT, POST and DELETE requests to my previously deve
 
 - [https://hb-northcoders-news-api.herokuapp.com/api](https://hb-northcoders-news-api.herokuapp.com/api)
 
-If you want to amend the `api.js` file to interact with your own/a different api, change the variable url (line 2) and ensure all axios calls reflect the respective url paths in the amended api:
+If you want to amend the `api.js` file to interact with your own/a different api, change the variable url (line 2) and ensure all Axios calls reflect the respective url paths in the amended api:
 
 ```js
 const url = '<your-api-url>';
