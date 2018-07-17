@@ -55,6 +55,8 @@ http://localhost:3000/
 
 You'll notice the integrated terminal states `Compiled successfully!`; if you make changes, the terminal will offer helpful advice to locate any errors, if they occur.
 
+Please note that the initial state in `App.js` is set up with a sample user, `happyamy2016`. A valid user must be logged in to post an article or comment and vote on content.
+
 ## **Updates**
 
 If you make changes to your repo, don't forget to `add`, `commit` and `push` your edits to your forked repo:
@@ -71,7 +73,7 @@ Northcoders News has been deployed to a `production` environment using [Heroku](
 
 Please check out my Northcoders News at:
 
-[**tbc**](tbc)
+[**https://hb-northcoders-news.herokuapp.com/**](https://hb-northcoders-news.herokuapp.com/)
 
 ## **Authors**
 

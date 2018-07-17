@@ -23,9 +23,9 @@ class TopicSelector extends Component {
     const { topics, error } = this.state;
 
     return !error ? (
-      <div className="navbar-item has-dropdown is-hoverable">
-        <button className="navbar-link button">Articles</button>
-        <nav className="navbar-dropdown">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <button class="navbar-item button">Articles</button>
+        <div class="navbar-dropdown is-boxed">
           <Link
             to={`/`}
             style={{ textDecoration: 'none' }}
@@ -45,7 +45,7 @@ class TopicSelector extends Component {
               </Link>
             );
           })}
-        </nav>
+        </div>
       </div>
     ) : (
       <Redirect to={`/${error}`} />
